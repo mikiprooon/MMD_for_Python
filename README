@@ -1,0 +1,19 @@
+MMDをPythonで動かしたい
+
+MMDに使われる2つのファイル、.pmxと.vmdをpythonで読み取り、スケルトンアニメーションを再生するツールです。
+
+使い方
+・read_pmx.py, read_vmd.py
+    ・.pmxファイルと同じフォルダ内で実行するだけ！
+    ・多分どのファイルでも動く（はず）
+    ・ファイル名は適宜変えてね
+・plot_mmd.py
+    ・現在は"Tda式初音ミク・アペンド_Ver1.10.pmx"と"HIASOBI_motion_Light.vmd"でしか再生できません
+    ・余計な青い線が描画されるけど、気にしないでね
+
+##注意##
+・"Tda式初音ミク・アペンド_Ver1.10.pmx"はTda氏の作品です
+・https://bowlroll.net/file/4576 でダウンロード可能
+
+・"HIASOBI_motion_Light.vmd"はmobiusP氏の作品です
+・https://bowlroll.net/file/274713 でダウンロード可能

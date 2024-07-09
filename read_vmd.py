@@ -4,8 +4,7 @@ import struct
 header = list()
 data = list(range(10))
 #読み込み
-#f = open('HIASOBI_motion_Light.vmd', 'rb')
-f = open('pray.vmd', 'rb')
+f = open('HIASOBI_motion_Light.vmd', 'rb')
 
 
 header.append(f.read(30))
